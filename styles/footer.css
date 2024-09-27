@@ -1,0 +1,13 @@
+.footer{
+    padding: 5px;
+    background-color: rgb(238, 238, 116);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+
+    img{
+        width: 1em;
+        height: 1em;
+    }
+}

@@ -4,7 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>portfolio</title>
+    <link rel="stylesheet" href="styles\normalize .css">
+    <link rel="stylesheet" href="styles\common.css">
     <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles\banner.css">
+    <link rel="stylesheet" href="styles\header.css">
 </head>
 <body>
     <header class="header">
@@ -12,18 +16,21 @@
             <div>
                 <img class="header_image"  src="" alt="">
             </div>
-            <ul class="nav_bar_elements">
-                <li>Proyect</li>
-                <li>Skills</li>
-                <li>Contact</li>
-            </ul>
+            <div class="nav_bar_elements">
+                <ul >
+                    <li>Proyect</li>
+                    <li>Skills</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+
         </nav>
     </header>
     <br>
     <main>
         <section class="name_description">
-            <h1>Roberto Gomez Fabrega</h1>
-            <p></p>
+            <h1>Julio Iglesias</h1>
+            <p>barras de progreso</p>
         </section>
 
         <section>
@@ -33,7 +40,7 @@
             <div class="skills">
                 <ul>
                     <li>Skate</li>
-                    <li>Trecking</li>
+                    <li>Filtring</li>
                     <li>Climbing</li>
                     <li>Friendly</li>
                     <li>Gamer</li>
@@ -41,22 +48,42 @@
                 </ul>
             </div>
         </section>
-        <div>
+        <div class="banner">
             <img src="" alt="">
         </div>
-        <div>
-            name
-            suname
-            tlf
-            github username 
-        </div>
-        <div>
-            form
-        </div>
-        
+        <section class="form">
+            <div class="form_info">
+                <ul>
+                    <li><h5>Name</h5></li>
+                    <li><h5>Surname</h5></li>
+                    <li><h5>Telephon number</h5></li>
+                    <li><h5>Github username</h5></li>
+                </ul>
+            </div>
+            <div class="select_btns">
+                <ul>
+                    <li><h5>How did you know me?</h5></li>
+                    <li>University</li>
+                    <li>KeepCooding kick-off</li>
+                    <li>School</li>
+                    <li>Github</li>
+                </ul>
+            </div>
+            <div>
+                <h4>More information</h4>
+            </div>
+            <div>
+                <button>Newsletter suscription</button>
+                <button>Send</button>
+                <button>Reset</button>
+            </div>
+        </section>
+
     </main>
-    <footer>
-        
+    <footer class="footer">
+        <img src="assets\app\footer&header\yt.png" alt="my  youtube account">
+        <img src="assets\app\footer&header\ig.png" alt="my instagram account">
+        <img src="assets\app\footer&header\twitter.png" alt="my x account">
     </footer>
 </body>
 </html>
