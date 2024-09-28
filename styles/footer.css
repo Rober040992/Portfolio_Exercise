@@ -1,13 +1,14 @@
 .footer{
     padding: 5px;
-    background-color: rgb(238, 238, 116);
+    background-color:var(--foot-bg);
     position: relative;
     display: flex;
     justify-content: center;
     gap: 2em;
+    flex-wrap: wrap;
 
     img{
         width: 1em;
-        height: 1em;
+        height: auto;
     }
 }

@@ -1,3 +1,21 @@
 :root{
-    --bg-color:var(--bg-color)
+    --bg-color: #253237;
+    --text-color: #000;
+    --foot-bg: #c2dfe3;
+    --main-font: sans-serif;
+    --head-color : rgba(94, 96, 118, 0.9);
+    font-size: 15px ;
 }
+
+.all-body{
+    background-color: var(--bg-color);
+    font-family: var(--main-font);
+    opacity: 1;
+    color: rgb(255, 255, 255);
+}
+
+
+.main{
+    margin-left: 10px;
+} 
+
