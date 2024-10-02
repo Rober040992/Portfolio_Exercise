@@ -1,22 +1,26 @@
-.banner{
-    height: 50vh;
-    align-items: center;
+.banner {
+    height: 30vh;
+    display: flex;                      
+    align-items: center;               
+    justify-content: center;            
     position: relative;
+    overflow: hidden;
 
-    .content{
-        text-align: center;
-        position: relative;
-        background-color: antiquewhite;
+    .content {
+        color: rgb(5, 236, 253);
+        background-color: rgba(9, 1, 1, 0.436);
         border-radius: 10px;
-
+        display: inline-block;            
     }
-    .image{
-        img{
+
+    .image {
+        img {
             z-index: -1;
             max-width: 100%;
             height: auto;
             position: absolute;
-            
+            top: 0;                       
+            left: 0;                     
         }
     }
 }

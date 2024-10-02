@@ -3,7 +3,7 @@
     --text-color: #000;
     --foot-bg: #c2dfe3;
     --main-font: sans-serif;
-    --head-color : rgba(94, 96, 118, 0.9);
+    --head-color : rgba(22, 22, 27, 0.318);
     font-size: 15px ;
 }
 
@@ -18,6 +18,5 @@
 .main{
     margin-left: 5px;
     margin-right: 5px;
-    
 } 
 

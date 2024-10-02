@@ -7,17 +7,14 @@
     display: flex;   
     justify-content: space-between;
     align-items: center;
-    padding: 0;
-    .header_image{
-        width: auto;
-        height: 4rem;
+    a{
+        margin-right: 1rem;
+        padding: 20px;
     }
 
-    .nav-bar{
-            padding: 0;
-            margin: 0;
-            position: relative;
-            right: 30px;
+    .header_image{
+        width: auto;
+        height: 5rem;
     }
 }
 

@@ -1,0 +1,31 @@
+.comps{
+    font-size: 1rem;
+    width: 5rem;
+    color: rgb(0, 0, 0);
+    background-color: rgb(217, 78, 106);
+    border-radius: 8px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 2s, width 2s, color 2s, font-size 2s;
+}
+
+.comps:hover{
+    font-size: 1.2rem;
+    color: rgb(253, 2, 2);
+    background-color: black;
+    width: 6rem;
+    border: 1px blue;
+}
+
+.png{
+    background-color: rgba(240, 255, 255, 0);
+    width: 2em;
+    border-radius: 50px;
+    transition: width 0.5s,  background-color 0.5s;
+}
+
+.png:hover{
+    background-color: #b739399a;
+    border-radius: 50px;
+    width: 2.5em;
+}

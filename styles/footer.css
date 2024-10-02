@@ -1,5 +1,5 @@
 .footer{
-    padding: 5px;
+    padding: 1rem;
     background-color:var(--foot-bg);
     position: relative;
     display: flex;
@@ -8,7 +8,7 @@
     flex-wrap: wrap;
 
     img{
-        width: 1em;
+        width: 2em;
         height: auto;
     }
 }
