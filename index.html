@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,18 +14,22 @@
     <link rel="stylesheet" href="styles\comp.css">
 
 </head>
+
 <body class="all-body">
 
     <header class="header">
-        <img class="header_image"  src="assets\app\footer&header\head.jpg" alt="juio iglesias meme , y lo sabes!">
+        <img class="header_image" src="assets\app\footer&header\head.jpg" alt="juio iglesias meme , y lo sabes!">
         <a class="comps" href="#Menu">Menu</a>
     </header>
 
     <main class="main">
         <section class="name_description">
             <h1>Julio Iglesias</h1>
-            <p>Julio Iglesias es mucho más que una leyenda de la música; es un símbolo de perseverancia, talento y carisma.
-            Desde sus humildes inicios tocando la guitarra en la cama de un hospital hasta su ascenso a la cúspide de la fama global, su historia es un testimonio de cómo el destino puede llevarnos por caminos inesperados
+            <p>Julio Iglesias es mucho más que una leyenda de la música; es un símbolo de perseverancia, talento y
+                carisma.
+                Desde sus humildes inicios tocando la guitarra en la cama de un hospital hasta su ascenso a la cúspide
+                de la fama global, su historia es un testimonio de cómo el destino puede llevarnos por caminos
+                inesperados
             </p>
         </section>
 
@@ -52,50 +57,71 @@
                 <h3 class="J_portfolio">Julio´s Portfolio!!!</h3>
             </div>
         </section>
-        <section class="form">
-            <div class="form_info">
-                <ul>
-                    <li><h5>Name</h5></li>
-                    <li><h5>Surname</h5></li>
-                    <li><h5>Telephon number</h5></li>
-                    <li><h5>Github username</h5></li>
-                </ul>
-            </div>
-            <div class="select_btns">
-                <ul>
-                    <li><h5>How did you know me?</h5></li>
-                    <li>University</li>
-                    <li>KeepCooding kick-off</li>
-                    <li>School</li>
-                    <li>Github</li>
-                </ul>
-            </div>
-            <div>
-                <h4>More information</h4>
-            </div>
-            <div>
-                <button>Newsletter suscription</button>
-                <button>Send</button>
-                <button>Reset</button>
-            </div>
-        </section>
-    
-        <section>
-            aqui un video
-            <div >
-                <ul id="proyect">
-                    <li>proyects</li>
-                </ul>
-            </div>
-        </section>
     </main>
 
-    
+    <section class="form">
+        <form method="post">
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" placeholder="Name" required>
+            </div>
+            <br>
+            <div>
+                <label for="Surname">Surname:</label>
+                <input type="text" name="Surname" id="Surname" placeholder="Surname" required>
+            </div>
+            <br>
+            <div>
+                <label for="Phone">Phone number:</label>
+                <input type="tel" name="Phone" id="Phone" placeholder="Your number" title="format (123-12-12-12)" required>
+            </div>
+            <br>
+            <div>
+                <label for="github">GitHub Username:</label>
+                <input type="text" name="github" id="github" placeholder="username" required>
+            </div>
+        </form>
+    </section>
+    <br> 
+    <fieldset class="how">   
+        <div>
+            <label for="choose">¿How did you know me?</label>
+            <ul class="checklist">
+                <li>Watching your concerts</li>
+                <li>Inthernet</li>
+                <li>Dancing in the club</li>
+                <li>And you know it!</li>
+            </ul>
+        </div>
+        <br>
+        <div>
+            <label for="info">More info:</label>
+            <textarea name="info" id="form-info" cols="10" rows="10" placeholder="more information here"></textarea>
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Send">
+            <input type="reset" value="Reset">
+        </div>
+    </fieldset >
+
+
+    <section>
+        aqui un video
+        <div>
+            <ul id="proyect">
+                <li>proyects</li>
+            </ul>
+        </div>
+    </section>
+
+
+
     <footer class="footer">
-        <a  href="https://www.youtube.com/channel/UCRdbdzGS_oGvT1CttIUzPFA" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.youtube.com/channel/UCRdbdzGS_oGvT1CttIUzPFA" target="_blank" rel="noopener noreferrer">
             <img class="png" src="assets\app\footer&header\yt.png" alt="my  youtube account">
         </a>
-        <a  href="https://www.instagram.com/julioiglesias/?hl=es" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.instagram.com/julioiglesias/?hl=es" target="_blank" rel="noopener noreferrer">
             <img class="png" src="assets\app\footer&header\ig.png" alt="my instagram account">
         </a>
         <a href="https://x.com/julioiglesias?lang=es" target="_blank" rel="noopener noreferrer">
@@ -103,4 +129,5 @@
         </a>
     </footer>
 </body>
+
 </html>

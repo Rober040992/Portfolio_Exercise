@@ -6,7 +6,7 @@
     border-radius: 8px;
     text-decoration: none;
     cursor: pointer;
-    transition: background-color 2s, width 2s, color 2s, font-size 2s;
+    transition: background-color 1s ease, width 1s, color 1s ease, font-size 1s ease;
 }
 
 .comps:hover{
@@ -21,11 +21,11 @@
     background-color: rgba(240, 255, 255, 0);
     width: 2em;
     border-radius: 50px;
-    transition: width 0.5s,  background-color 0.5s;
+    transition: width 0.5s ease,  background-color 0.5s ease;
 }
 
 .png:hover{
-    background-color: #b739399a;
+    background-color: #39b7619a;
     border-radius: 50px;
     width: 2.5em;
 }
