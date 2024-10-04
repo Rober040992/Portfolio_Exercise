@@ -18,10 +18,15 @@
 <body class="all-body">
 
     <header class="header">
-        <img class="header_image" src="assets\app\footer&header\head.jpg" alt="juio iglesias meme , y lo sabes!">
-        <a class="comps" href="#Menu">Menu</a>
+        <img class="header_image" src="assets\app\footer&header\julio png.png" alt="juio iglesias meme">
+        <a  class="comps btn_menu" href="#Menu">Menu</a>
+        <div class="hiddbtn" style="display: flex; ">
+            <a  class="comps hiddenbtns" href="proyects.html">Proyects</a>
+            <a  class="comps hiddenbtns" href="#Skills">Skills</a>
+            <a  class="comps hiddenbtns" href="#Contact">Contact</a>
+        </div>
     </header>
-
+        
     <main class="main">
         <section class="name_description">
             <h1>Julio Iglesias</h1>
@@ -33,8 +38,8 @@
             </p>
         </section>
 
-        <section>
-            <div class="skill_title">
+        <section id="Skills">
+            <div class="skill_title" >
                 <h2>My skills</h1>
             </div>
             <div class="skills_bars">
@@ -50,18 +55,16 @@
         </section>
 
         <section class="banner">
-            <div class="image">
-                <img src="assets\app\body\banner.webp" alt="juio iglesias clapping and smiling">
-            </div>
+            <img src="assets\app\body\banner768.webp">
             <div class="content">
-                <h3 class="J_portfolio">Julio´s Portfolio!!!</h3>
+                <a href="proyects.html">Julio´s Portfolio!!!</a>
             </div>
         </section>
     </main>
 
     <section class="form">
         <form method="post">
-            <div>
+            <div id="Contact">
                 <label for="name">Name:</label>
                 <input type="text" name="name" id="name" placeholder="Name" required>
             </div>
@@ -73,7 +76,8 @@
             <br>
             <div>
                 <label for="Phone">Phone number:</label>
-                <input type="tel" name="Phone" id="Phone" placeholder="Your number" title="format (123-12-12-12)" required>
+                <input type="tel" name="Phone" id="Phone" placeholder="Your number" title="format (123-12-12-12)"
+                    required>
             </div>
             <br>
             <div>
@@ -82,8 +86,8 @@
             </div>
         </form>
     </section>
-    <br> 
-    <fieldset class="how">   
+    <br>
+    <fieldset class="how">
         <div>
             <label for="choose">¿How did you know me?</label>
             <ul class="checklist">
@@ -103,7 +107,7 @@
             <input type="submit" value="Send">
             <input type="reset" value="Reset">
         </div>
-    </fieldset >
+    </fieldset>
 
 
     <section>

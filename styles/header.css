@@ -5,16 +5,37 @@
     z-index: 10;
     background-color:var(--head-color);
     display: flex;   
-    justify-content: space-between;
+    justify-content:space-between;
     align-items: center;
-    a{
+    border-bottom: 1px solid rgb(253, 252, 252);
+    .btn_menu{
+        position: fixed;
+        right: 0;
         margin-right: 1rem;
-        padding: 20px;
+        padding: 18px;
+    }
+    .hiddenbtns{
+        display: flex;
+        justify-content: space-between;
+        width: 50%;
+        margin: 10px;
+        padding: 15px;
+        display: none;
+    }
+
+    @media screen and (width > 768px ){
+        .hiddenbtns{
+            display: block;
+        }
+        .btn_menu{
+            display:none;
+        }
     }
 
     .header_image{
         width: auto;
         height: 5rem;
+        margin-left: 1rem;
     }
 }
 

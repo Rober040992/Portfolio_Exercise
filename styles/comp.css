@@ -14,7 +14,7 @@
     color: rgb(253, 2, 2);
     background-color: black;
     width: 6rem;
-    border: 1px blue;
+    border: 1px solid rgb(255, 0, 0);
 }
 
 .png{
@@ -25,7 +25,7 @@
 }
 
 .png:hover{
-    background-color: #39b7619a;
+    background-color: #f9f9f9;
     border-radius: 50px;
     width: 2.5em;
 }

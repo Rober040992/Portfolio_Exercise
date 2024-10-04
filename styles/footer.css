@@ -1,8 +1,7 @@
 .footer{
     padding: 1rem;
-    background-color:var(--foot-bg);
-    position: relative;
-    display: flex;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 14%, rgba(255,1,1,1) 59%, rgba(0,0,0,1) 93%);display: flex;
     justify-content: center;
     gap: 2em;
     flex-wrap: wrap;

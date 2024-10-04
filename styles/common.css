@@ -1,22 +1,33 @@
 :root{
-    --bg-color: #253237;
-    --text-color: #000;
+    --bg-color: #000000;
     --foot-bg: #c2dfe3;
     --main-font: sans-serif;
-    --head-color : rgba(22, 22, 27, 0.318);
+    --main-font-color: #ffffff;
+    --head-color : rgba(22, 22, 27, 0);
     font-size: 15px ;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    
 }
-
 .all-body{
     background-color: var(--bg-color);
     font-family: var(--main-font);
-    opacity: 1;
-    color: rgb(255, 255, 255);
+    color: var(--main-font-color);
 }
-
-
 .main{
     margin-left: 5px;
     margin-right: 5px;
 } 
 
+@media print{
+    .header, .footer{
+        display: none;
+    }
+}
+
+@media screen and (prefers-color-scheme: light){
+    :root{
+        --bg-color: #ffffff;
+        --main-font-color: #000000;
+    }
+}
