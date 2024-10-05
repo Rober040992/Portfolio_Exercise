@@ -8,10 +8,10 @@
     margin-bottom: 20px;
 
     .content {
-        a{
-            font-size: 20px;
+        a{  
+            font-size: 2rem;
             padding: 1rem;
-            color: rgb(5, 236, 253);
+            color: rgba(199, 28, 28, 0.758);
             background-color: rgba(9, 1, 1, 0.436);
             border-radius: 10px;
             display: inline-block;  

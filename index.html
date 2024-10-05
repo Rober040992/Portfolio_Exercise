@@ -12,19 +12,20 @@
     <link rel="stylesheet" href="styles/footer.css">
     <link rel="stylesheet" href="styles\form.css">
     <link rel="stylesheet" href="styles\comp.css">
+    <link rel="stylesheet" href="styles\progress_bars.css">
 
 </head>
 
 <body class="all-body">
 
     <header class="header">
-        <img class="header_image" src="assets\app\footer&header\julio png.png" alt="juio iglesias meme">
-        <a class="comps btn_menu" href="#Menu">Menu</a>
-        <div class="hiddbtn" style="display: flex; ">
-            <a class="comps hiddenbtns" href="proyects.html">Proyects</a>
-            <a class="comps hiddenbtns" href="#Skills">Skills</a>
-            <a class="comps hiddenbtns" href="#Contact">Contact</a>
-        </div>
+            <img class="header_image" src="assets\app\footer&header\julio png.png" alt="juio iglesias meme">
+            <a class="comps btn_menu" href="#Menu">Menu</a>
+            <div class="hiddbtn" style="display: flex; ">
+                <a class="comps hiddenbtns" href="proyects.html">Proyects</a>
+                <a class="comps hiddenbtns" href="#Skills">Skills</a>
+                <a class="comps hiddenbtns" href="#Contact">Contact</a>
+            </div>
     </header>
 
     <main class="main">
@@ -36,18 +37,16 @@
         </section>
 
         <section id="Skills">
-            <div class="skill_title">
+            <div>
                 <h2>My skills</h1>
             </div>
-            <div class="skills_bars">
-                <ul>
-                    <li>Drinking</li>
-                    <li>Filrting</li>
-                    <li>Singing</li>
-                    <li>Dancing</li>
-                    <li>Heart Breaking</li>
-                    <li>Smiling</li>
-                </ul>
+            <div class="progress-bar">
+                    <div class="progress-element">Drinking</div>
+                    <div class="progress-element">Filrting</div>
+                    <div class="progress-element">Singing</div>
+                    <div class="progress-element">Dancing</div>
+                    <div class="progress-element">Heart Breaking</div>
+                    <div class="progress-element">Smiling</div>
             </div>
         </section>
 
@@ -59,65 +58,70 @@
         </section>
     </main>
 
-    <section class="form">
-        <form method="post">
-            <div id="Contact">
-                <label for="name">Name:</label>
-                <input class="form_inputs" type="text" 
-                name="name" id="name" placeholder="Name" 
-                pattern="[a-zA-ZñÑáéíóúÁÉÍÓÚ\s]+" title="Please enter a valid name, only letters and spaces" 
-                required>
+    <form class="full-form"  method="post">
+        <section class="form">
+            <div class="form_element" id="Contact">
+                <label for="name">Name :</label>
+                <input type="text" name="name" id="name" placeholder="Name"
+                    pattern="[a-zA-ZñÑáéíóúÁÉÍÓÚ\s]+" title="Please enter a valid name, only letters and spaces"
+                    required>
             </div>
             <br>
-            <div>
-                <label for="Surname">Surname:</label>
-                <input class="form_inputs" type="text" 
-                name="Surname" id="Surname" placeholder="Surname"
-                pattern="[a-zA-ZñÑáéíóúÁÉÍÓÚ\s]+" title="Please enter a valid surname, only letters and spaces"
-                required>
+            <div class="form_element">
+                <label for="Surname">Surname :</label>
+                <input type="text" name="Surname" id="Surname" placeholder="Surname"
+                    pattern="[a-zA-ZñÑáéíóúÁÉÍÓÚ\s]+" title="Please enter a valid surname, only letters and spaces"
+                    required>
             </div>
             <br>
-            <div>
-                <label for="Phone">Phone number:</label>
-                <input class="form_inputs" type="tel" 
-                name="Phone" id="Phone" placeholder="+34 555 55 55 55" 
-                required 
-                pattern="\+34 [0-9]{3} [0-9]{2} [0-9]{2} [0-9]{2}">
+            <div class="form_element">
+                <label for="Phone">Phone number :</label>
+                <input type="tel" name="Phone" id="Phone" placeholder="+34 555 55 55 55" required
+                    maxlength="17" value="+34 " pattern="\+34 [0-9]{3} [0-9]{2} [0-9]{2} [0-9]{2}">
             </div>
             <br>
-            <div>
-                <label for="github">GitHub Username:</label>
-                <input class="form_inputs" 
-                type="text" name="github" 
-                id="github" placeholder="username" 
-                title="The username must contain only letters, numbers, and hyphens. It cannot start or end with a hyphen, and must be between 1 and 39 characters long." 
-                required>
+            <div class="form_element">
+                <label for="github">GitHub Username :</label>
+                <input type="text" name="github" id="github" placeholder="username"
+                    title="The username must contain only letters, numbers, and hyphens. It cannot start or end with a hyphen, and must be between 1 and 39 characters long."
+                    required>
             </div>
-        </form>
-    </section>
-    <br>
+        </section>
+
     <fieldset class="how">
         <legend for="choose">¿How did you know me?</legend>
-        <label for="university">university</label>
-        <input type="radio" id="university" name="how">
-        <label for="Keepcooding">Keepcooding</label>
-        <input type="radio" id="Keepcooding" name="how">
-        <label for="Party">Party</label>
-        <input type="radio" id="Party" name="how" checked>
-        <label for="GitHub">GitHub</label>
-        <input type="radio" id="GitHub" name="how">
+        <div>
+            <label for="university">University</label>
+            <input type="radio" id="university" name="how">
+        </div>
+        <div>
+            <label for="Keepcooding">Keepcooding</label>
+            <input type="radio" id="Keepcooding" name="how">
+        </div>
+        <div>
+            <label for="Party">Party</label>
+            <input type="radio" id="Party" name="how" checked>
+        </div>
+        <div>
+            <label for="GitHub">GitHub</label>
+            <input type="radio" id="GitHub" name="how">
+        </div>
     </fieldset>
-    
+    <br>
     <div class="more_info">
-        <label for="info">More info:</label>
-        <textarea name="info" id="info" cols="30" rows="4" placeholder="more information here"></textarea>
+        <div>
+            <label for="info">More info:</label>
+        </div>
+        <div>
+            <textarea name="info" id="info" cols="30" rows="4" 
+            placeholder="more information here" maxlength="150"></textarea>
+        </div>
     </div>
-    
-
+    <br>
     <div class="love">
         <div>
             <label for="checkbox">Do you love Julio?</label>
-            <input type="checkbox" name="checkbox" id="checkbox" maxlength="50">
+            <input type="checkbox" name="checkbox" id="checkbox" >
         </div>
         <div>
             <label for="dance">Would you like to dance with me?</label>
@@ -129,12 +133,13 @@
     </div>
     <br>
     <div class="submit">
-        <button>
-            <input type="submit" value="Send">
-            <input type="reset" value="Reset">
-        </button>
+        <div>
+            <input class="comps" type="submit" value="Send">
+            <input class="comps" type="reset" value="Reset">
+        </div>
     </div>
-    
+    </form>
+
 
     <footer class="footer">
         <a href="https://www.youtube.com/channel/UCRdbdzGS_oGvT1CttIUzPFA" target="_blank" rel="noopener noreferrer">
