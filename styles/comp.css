@@ -30,3 +30,11 @@
     width: 2.5em;
 }
 
+.shadow{
+    box-shadow: 0 1px 3px rgba(196, 176, 176, 0.103) ;
+    transition: box-shadow 0.6s ease;
+}
+.shadow:hover{
+    box-shadow: 0 10px 20px rgba(138, 131, 131, 0.576);
+}
+

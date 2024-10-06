@@ -11,7 +11,7 @@
         a{  
             font-size: 2rem;
             padding: 1rem;
-            color: rgba(199, 28, 28, 0.758);
+            color: var(--h-colors);
             background-color: rgba(9, 1, 1, 0.436);
             border-radius: 10px;
             display: inline-block;  

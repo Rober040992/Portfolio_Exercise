@@ -1,0 +1,67 @@
+.skills{
+    h2{
+        color: var(--h-colors);
+        border-bottom: 1px solid red;
+    }
+}
+.skill_list {
+    list-style: none;
+    padding: 0;
+    max-width: auto;
+    margin: 0 auto;
+}
+.skill_list li {
+    background-color: var(--comps-bg-color);
+    margin: 10px 0;
+    padding: 10px;
+    position: relative;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    
+}
+
+.bar1 {
+    width: 0;
+    animation: fillBar1 2s forwards;
+}
+
+.bar2 {
+    width: 0;
+    animation: fillBar2 2s forwards;
+}
+
+.bar3 {
+    width: 0;
+    animation: fillBar3 2s forwards;
+}
+
+.bar4 {
+    width: 0;
+    animation: fillBar4 2s forwards;
+}
+
+
+@keyframes fillBar1 {
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes fillBar2 {
+    to {
+        width: 80%;
+    }
+}
+
+@keyframes fillBar3 {
+    to {
+        width: 25%;
+    }
+}
+
+@keyframes fillBar4 {
+    to {
+        width: 85%;
+    }
+}

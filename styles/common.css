@@ -4,6 +4,8 @@
     --main-font: sans-serif;
     --main-font-color: #ffffff;
     --head-color : rgba(22, 22, 27, 0);
+    --comps-bg-color: #fb020276;
+    --h-colors: #f63a21bd;
     font-size: 15px ;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -15,6 +17,9 @@
     color: var(--main-font-color);
 }
 .main{
+    h1{
+        color: var(--h-colors);
+    }
     margin-left: 5px;
     margin-right: 5px;
 } 

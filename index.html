@@ -36,24 +36,20 @@
                 his story is a testament to how fate can take us down unexpected paths.</p>
         </section>
 
-        <section id="Skills">
-            <div>
-                <h2>My skills</h1>
-            </div>
-            <div class="progress-bar">
-                    <div class="progress-element">Drinking</div>
-                    <div class="progress-element">Filrting</div>
-                    <div class="progress-element">Singing</div>
-                    <div class="progress-element">Dancing</div>
-                    <div class="progress-element">Heart Breaking</div>
-                    <div class="progress-element">Smiling</div>
-            </div>
+        <section class="skills" id="Skills">
+            <h2>My skills</h1>
+                <ul class="skill_list">
+                    <li class="bar1">Filrting</li>
+                    <li class="bar2">Drinkig</li>
+                    <li class="bar3">Singing</li>
+                    <li class="bar4">Smiling</li>
+            </ul>
         </section>
 
         <section class="banner">
             <img src="assets\app\body\banner768.webp">
             <div class="content">
-                <a href="proyects.html">Julio´s Portfolio!!!</a>
+                <a class="shadow" href="proyects.html">Julio´s Portfolio!!!</a>
             </div>
         </section>
     </main>
@@ -62,27 +58,27 @@
         <section class="form">
             <div class="form_element" id="Contact">
                 <label for="name">Name :</label>
-                <input type="text" name="name" id="name" placeholder="Name"
+                <input class="shadow" type="text" name="name" id="name" placeholder="Name"
                     pattern="[a-zA-ZñÑáéíóúÁÉÍÓÚ\s]+" title="Please enter a valid name, only letters and spaces"
                     required>
             </div>
             <br>
             <div class="form_element">
                 <label for="Surname">Surname :</label>
-                <input type="text" name="Surname" id="Surname" placeholder="Surname"
+                <input class="shadow" type="text" name="Surname" id="Surname" placeholder="Surname"
                     pattern="[a-zA-ZñÑáéíóúÁÉÍÓÚ\s]+" title="Please enter a valid surname, only letters and spaces"
                     required>
             </div>
             <br>
             <div class="form_element">
                 <label for="Phone">Phone number :</label>
-                <input type="tel" name="Phone" id="Phone" placeholder="+34 555 55 55 55" required
+                <input class="shadow" type="tel" name="Phone" id="Phone" placeholder="+34 555 55 55 55" required
                     maxlength="17" value="+34 " pattern="\+34 [0-9]{3} [0-9]{2} [0-9]{2} [0-9]{2}">
             </div>
             <br>
             <div class="form_element">
                 <label for="github">GitHub Username :</label>
-                <input type="text" name="github" id="github" placeholder="username"
+                <input class="shadow" type="text" name="github" id="github" placeholder="username"
                     title="The username must contain only letters, numbers, and hyphens. It cannot start or end with a hyphen, and must be between 1 and 39 characters long."
                     required>
             </div>
@@ -113,7 +109,7 @@
             <label for="info">More info:</label>
         </div>
         <div>
-            <textarea name="info" id="info" cols="30" rows="4" 
+            <textarea class="shadow" name="info" id="info" cols="50" rows="4" 
             placeholder="more information here" maxlength="150"></textarea>
         </div>
     </div>
@@ -134,7 +130,7 @@
     <br>
     <div class="submit">
         <div>
-            <input class="comps" type="submit" value="Send">
+            <input  class="comps" type="submit" value="Send">
             <input class="comps" type="reset" value="Reset">
         </div>
     </div>
