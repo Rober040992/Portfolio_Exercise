@@ -1,0 +1,26 @@
+:root{
+
+}
+
+.poryect_body{
+    background-image: url(assets\app\body\Space-Background-Images-1536x1024.jpg);
+    background-size: cover;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 50%; /* 16:9 aspect ratio */
+}
+.video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90%;
+    height: 100%;
+}
+
+@media (max-width: 768px) {
+    .video-container {
+      padding-bottom: 100%; /* Ajusta según las proporciones de tu video */
+    }
+}

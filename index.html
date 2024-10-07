@@ -13,13 +13,14 @@
     <link rel="stylesheet" href="styles\form.css">
     <link rel="stylesheet" href="styles\comp.css">
     <link rel="stylesheet" href="styles\progress_bars.css">
-
+    <meta property="og:title" content="Portfolio" >
+    <meta property="og:description" content="Julio Iglesias portfolio" >
 </head>
 
 <body class="all-body">
 
     <header class="header">
-            <img class="header_image" src="assets\app\footer&header\julio png.png" alt="juio iglesias meme">
+            <img class="header_image" class="shadow" src="assets\app\footer&header\julio png.png" alt="juio iglesias meme">
             <a class="comps btn_menu" href="#Menu">Menu</a>
             <div class="hiddbtn" style="display: flex; ">
                 <a class="comps hiddenbtns" href="proyects.html">Proyects</a>
@@ -38,16 +39,20 @@
 
         <section class="skills" id="Skills">
             <h2>My skills</h1>
-                <ul class="skill_list">
-                    <li class="bar1">Filrting</li>
+            <ul class="skill_list">
+                <div>
                     <li class="bar2">Drinkig</li>
+                    <li class="bar1">Filrting</li>
+                </div>
+                <div>
                     <li class="bar3">Singing</li>
                     <li class="bar4">Smiling</li>
+                </div>
             </ul>
         </section>
 
         <section class="banner">
-            <img src="assets\app\body\banner768.webp">
+            <img src="assets\app\body\banner768.webp" alt="julio iglesias clapping">
             <div class="content">
                 <a class="shadow" href="proyects.html">Julio´s Portfolio!!!</a>
             </div>
@@ -87,19 +92,19 @@
     <fieldset class="how">
         <legend for="choose">¿How did you know me?</legend>
         <div>
-            <label for="university">University</label>
+            <label class="shadow" for="university">University</label>
             <input type="radio" id="university" name="how">
         </div>
         <div>
-            <label for="Keepcooding">Keepcooding</label>
+            <label class="shadow" for="Keepcooding">Keepcooding</label>
             <input type="radio" id="Keepcooding" name="how">
         </div>
         <div>
-            <label for="Party">Party</label>
+            <label class="shadow" for="Party">Party</label>
             <input type="radio" id="Party" name="how" checked>
         </div>
         <div>
-            <label for="GitHub">GitHub</label>
+            <label class="shadow" for="GitHub">GitHub</label>
             <input type="radio" id="GitHub" name="how">
         </div>
     </fieldset>
@@ -109,7 +114,7 @@
             <label for="info">More info:</label>
         </div>
         <div>
-            <textarea class="shadow" name="info" id="info" cols="50" rows="4" 
+            <textarea class="shadow" name="info" id="info" cols="45" rows="5" 
             placeholder="more information here" maxlength="150"></textarea>
         </div>
     </div>
@@ -119,6 +124,7 @@
             <label for="checkbox">Do you love Julio?</label>
             <input type="checkbox" name="checkbox" id="checkbox" >
         </div>
+        <br>
         <div>
             <label for="dance">Would you like to dance with me?</label>
             <select name="dance" id="dance">

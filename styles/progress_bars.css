@@ -22,21 +22,25 @@
 }
 
 .bar1 {
+    border: 1px solid white;
     width: 0;
     animation: fillBar1 2s forwards;
 }
 
 .bar2 {
+    border: 1px solid white;
     width: 0;
     animation: fillBar2 2s forwards;
 }
 
 .bar3 {
+    border: 1px solid white;
     width: 0;
     animation: fillBar3 2s forwards;
 }
 
 .bar4 {
+    border: 1px solid white;
     width: 0;
     animation: fillBar4 2s forwards;
 }
@@ -63,5 +67,12 @@
 @keyframes fillBar4 {
     to {
         width: 85%;
+    }
+}
+
+@media screen and (width > 768px){
+    .skill_list div{
+        display: flex;
+        gap: 4rem;
     }
 }
