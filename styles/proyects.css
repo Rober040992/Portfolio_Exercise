@@ -1,26 +1,55 @@
 :root{
+    --main-font: sans-serif;
+    --main-font-color: #ffffff;
+    --head-color : rgba(22, 22, 27, 0);
+    --comps-bg-color: #fb020276;
+    --h-colors: #f63a21bd;
+    font-size: 15px ;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+}
+.head{
+    
+    margin: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    h1{
+        color: var(--h-colors);
+        margin: 0 0 0 3rem;
+        padding: 3px;
+    }
+    a{
+        margin-right: 3rem;
+        padding: 0.6rem;
+    }
+}
+.footer{
 
 }
-
-.poryect_body{
-    background-image: url(assets\app\body\Space-Background-Images-1536x1024.jpg);
-    background-size: cover;
+.proyect_body{
+    background-image: url(../assets/app/body/Space-Background-Images-1536x1024.jpg);
+    background-size: auto;
 }
-
+/* video section */
 .video-container {
     position: relative;
-    padding-bottom: 50%; /* 16:9 aspect ratio */
+    padding-bottom: 100%;
 }
 .video {
+    margin-left: 5%;
     position: absolute;
     top: 0;
     left: 0;
     width: 90%;
-    height: 100%;
+    height: 70%;
+    opacity: 0;
+    animation: fadeIn 2s ease-in forwards;
 }
 
-@media (max-width: 768px) {
-    .video-container {
-      padding-bottom: 100%; /* Ajusta según las proporciones de tu video */
+@keyframes fadeIn {
+    to {
+        opacity: 1;
     }
 }
+
