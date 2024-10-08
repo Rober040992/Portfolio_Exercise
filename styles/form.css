@@ -37,6 +37,8 @@
 
 /* radio buttons */
 .how{
+    margin: 0;
+    max-width: 768px;
     margin-top: 10px;
     border: 2px solid var(--comps-bg-color);
     border-radius: 10px;
@@ -46,6 +48,9 @@
 }
 
 .more_info{
+    width: auto;
+    min-width: none;
+    max-width: fit-content;
     textarea{
         background-color: var(--comps-bg-color);
         border-radius: 10px;

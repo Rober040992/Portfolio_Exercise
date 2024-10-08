@@ -13,20 +13,20 @@
     <link rel="stylesheet" href="styles\form.css">
     <link rel="stylesheet" href="styles\comp.css">
     <link rel="stylesheet" href="styles\progress_bars.css">
-    <meta property="og:title" content="Portfolio" >
-    <meta property="og:description" content="Julio Iglesias portfolio" >
+    <meta property="og:title" content="Portfolio">
+    <meta property="og:description" content="Julio Iglesias portfolio">
 </head>
 
 <body class="all-body">
 
     <header class="header">
-            <img class="header_image" class="shadow" src="assets\app\footer&header\julio png.png" alt="juio iglesias meme">
-            <a class="comps btn_menu" href="#Menu">Menu</a>
-            <div class="hiddbtn" style="display: flex; ">
-                <a class="comps hiddenbtns" href="proyects.html">Proyects</a>
-                <a class="comps hiddenbtns" href="#Skills">Skills</a>
-                <a class="comps hiddenbtns" href="#Contact">Contact</a>
-            </div>
+        <img class="header_image" class="shadow" src="assets\app\footer&header\julio png.png" alt="juio iglesias meme">
+        <a class="comps btn_menu" href="#Menu">Menu</a>
+        <div class="extended_buttons">
+            <a class="hiddenbtns comps " href="proyects.html">Proyects</a>
+            <a class="comps hiddenbtns" href="#Skills">Skills</a>
+            <a class="comps hiddenbtns" href="#Contact">Contact</a>
+        </div>
     </header>
 
     <main class="main">
@@ -39,16 +39,16 @@
 
         <section class="skills" id="Skills">
             <h2>My skills</h1>
-            <ul class="skill_list">
-                <div>
-                    <li class="bar2">Drinkig</li>
-                    <li class="bar1">Filrting</li>
-                </div>
-                <div>
-                    <li class="bar3">Singing</li>
-                    <li class="bar4">Smiling</li>
-                </div>
-            </ul>
+                <ul class="skill_list">
+                    <div>
+                        <li class="bar2">Drinkig</li>
+                        <li class="bar1">Filrting</li>
+                    </div>
+                    <div>
+                        <li class="bar3">Singing</li>
+                        <li class="bar4">Smiling</li>
+                    </div>
+                </ul>
         </section>
 
         <section class="banner">
@@ -59,7 +59,7 @@
         </section>
     </main>
 
-    <form class="full-form"  method="post">
+    <form class="full-form" method="post">
         <section class="form">
             <div class="form_element" id="Contact">
                 <label for="name">Name :</label>
@@ -89,57 +89,57 @@
             </div>
         </section>
 
-    <fieldset class="how">
-        <legend for="choose">¿How did you know me?</legend>
-        <div>
-            <label class="shadow" for="university">University</label>
-            <input type="radio" id="university" name="how">
-        </div>
-        <div>
-            <label class="shadow" for="Keepcooding">Keepcooding</label>
-            <input type="radio" id="Keepcooding" name="how">
-        </div>
-        <div>
-            <label class="shadow" for="Party">Party</label>
-            <input type="radio" id="Party" name="how" checked>
-        </div>
-        <div>
-            <label class="shadow" for="GitHub">GitHub</label>
-            <input type="radio" id="GitHub" name="how">
-        </div>
-    </fieldset>
-    <br>
-    <div class="more_info">
-        <div>
-            <label for="info">More info:</label>
-        </div>
-        <div>
-            <textarea class="shadow" name="info" id="info" cols="45" rows="5" 
-            placeholder="more information here" maxlength="150"></textarea>
-        </div>
-    </div>
-    <br>
-    <div class="love">
-        <div>
-            <label for="checkbox">Do you love Julio?</label>
-            <input type="checkbox" name="checkbox" id="checkbox" >
+        <fieldset class="how">
+            <legend for="choose">¿How did you know me?</legend>
+            <div>
+                <label class="shadow" for="university">University</label>
+                <input type="radio" id="university" name="how">
+            </div>
+            <div>
+                <label class="shadow" for="Keepcooding">Keepcooding</label>
+                <input type="radio" id="Keepcooding" name="how">
+            </div>
+            <div>
+                <label class="shadow" for="Party">Party</label>
+                <input type="radio" id="Party" name="how" checked>
+            </div>
+            <div>
+                <label class="shadow" for="GitHub">GitHub</label>
+                <input type="radio" id="GitHub" name="how">
+            </div>
+        </fieldset>
+        <br>
+        <div class="more_info">
+            <div>
+                <label for="info">More info:</label>
+            </div>
+            <div>
+                <textarea class="shadow" name="info" id="info" cols="40" rows="5" placeholder="more information here"
+                    maxlength="150"></textarea>
+            </div>
         </div>
         <br>
-        <div>
-            <label for="dance">Would you like to dance with me?</label>
-            <select name="dance" id="dance">
-                <option value="Yes">Yes</option>
-                <option value="Of course">Of course</option>
-            </select>
+        <div class="love">
+            <div>
+                <label for="checkbox">Do you love Julio?</label>
+                <input type="checkbox" name="checkbox" id="checkbox">
+            </div>
+            <br>
+            <div>
+                <label for="dance">Would you like to dance with me?</label>
+                <select name="dance" id="dance">
+                    <option value="Yes">Yes</option>
+                    <option value="Of course">Of course</option>
+                </select>
+            </div>
         </div>
-    </div>
-    <br>
-    <div class="submit">
-        <div>
-            <input  class="comps" type="submit" value="Send">
-            <input class="comps" type="reset" value="Reset">
+        <br>
+        <div class="submit">
+            <div>
+                <input class="comps" type="submit" value="Send">
+                <input class="comps" type="reset" value="Reset">
+            </div>
         </div>
-    </div>
     </form>
 
 

@@ -1,10 +1,12 @@
 .skills{
     h2{
         color: var(--h-colors);
-        border-bottom: 1px solid red;
+        border-bottom: 2px solid var(--bottom-border-color);
     }
 }
 .skill_list {
+    margin: 0;
+    max-width: 768px;
     list-style: none;
     padding: 0;
     max-width: auto;
@@ -15,32 +17,32 @@
     margin: 10px 0;
     padding: 10px;
     position: relative;
-    color: white;
+    color:var(--h-colors);
     font-weight: bold;
     border-radius: 10px;
     
 }
 
 .bar1 {
-    border: 1px solid white;
+    border: 3px solid var(--bar-border);
     width: 0;
     animation: fillBar1 2s forwards;
 }
 
 .bar2 {
-    border: 1px solid white;
+    border: 3px solid var(--bar-border);
     width: 0;
     animation: fillBar2 2s forwards;
 }
 
 .bar3 {
-    border: 1px solid white;
+    border: 3px solid var(--bar-border);
     width: 0;
     animation: fillBar3 2s forwards;
 }
 
 .bar4 {
-    border: 1px solid white;
+    border: 3px solid var(--bar-border);
     width: 0;
     animation: fillBar4 2s forwards;
 }

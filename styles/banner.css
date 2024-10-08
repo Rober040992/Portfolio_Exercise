@@ -1,5 +1,6 @@
 .banner {
     height: 30vh;
+    max-width: 868px;
     display: flex;                      
     align-items: center;               
     justify-content: center;            
@@ -9,10 +10,10 @@
 
     .content {
         a{  
-            font-size: 2rem;
+            font-size: 1.5rem;
             padding: 1rem;
             color: var(--h-colors);
-            background-color: rgba(9, 1, 1, 0.436);
+            background-color: var(--banners-bg-color);
             border-radius: 10px;
             display: inline-block;  
             }           

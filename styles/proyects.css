@@ -1,41 +1,54 @@
-:root{
+:root {
+    --bg-color: #000000;
+    --foot-bg: #f7f8f949;
     --main-font: sans-serif;
     --main-font-color: #ffffff;
-    --head-color : rgba(22, 22, 27, 0);
-    --comps-bg-color: #fb020276;
+    --bttn-font-colors: rgb(7, 1, 1);
+    --head-color: rgba(196, 196, 213, 0.67);
+    --comps-bg-color: #f5efef53;
+    --footer-png-hover: rgba(10, 5, 5, 0.569);
     --h-colors: #f63a21bd;
-    font-size: 15px ;
+    --box-sh: 0 1px 3px rgba(196, 176, 176, 0.103);
+    --box-sh-end: 0 10px 20px rgba(242, 77, 77, 0.414);
+    --bar-border: rgba(190, 34, 34, 0.544);
+    --bottom-border-color: rgb(205, 38, 38);
+    font-size: 15px;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
 }
-.head{
-    
+
+.head {
+
     margin: 1rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    h1{
+
+    h1 {
         color: var(--h-colors);
         margin: 0 0 0 3rem;
         padding: 3px;
     }
-    a{
+
+    a {
         margin-right: 3rem;
         padding: 0.6rem;
     }
 }
-.footer{
 
-}
-.proyect_body{
+.footer {}
+
+.proyect_body {
     background-image: url(../assets/app/body/Space-Background-Images-1536x1024.jpg);
     background-size: auto;
 }
+
 /* video section */
 .video-container {
     position: relative;
     padding-bottom: 100%;
 }
+
 .video {
     margin-left: 5%;
     position: absolute;
@@ -52,4 +65,3 @@
         opacity: 1;
     }
 }
-

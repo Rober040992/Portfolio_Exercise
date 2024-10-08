@@ -1,37 +1,53 @@
-:root{
+:root {
     --bg-color: #000000;
-    --foot-bg: #c2dfe3;
+    --foot-bg: #f7f8f949;
     --main-font: sans-serif;
     --main-font-color: #ffffff;
-    --head-color : rgba(22, 22, 27, 0);
-    --comps-bg-color: #fb020276;
+    --bttn-font-colors: rgb(22, 5, 5);
+    --head-color: rgba(196, 196, 213, 0.67);
+    --comps-bg-color: #f5efef53;
+    --bttns-bg-color: rgb(80, 73, 73);
+    --footer-png-hover: rgba(10, 5, 5, 0.569);
     --h-colors: #f63a21bd;
-    font-size: 15px ;
+    --box-sh: 0 1px 3px rgba(196, 176, 176, 0.103);
+    --box-sh-end: 0 10px 20px rgba(242, 77, 77, 0.414);
+    --bar-border: rgba(190, 34, 34, 0.544);
+    --bottom-border-color: rgb(205, 38, 38);
+    --banners-bg-color: rgba(222, 204, 204, 0.239);
+    font-size: 15px;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
-    
 }
-.all-body{
+
+.all-body {
     background-color: var(--bg-color);
     font-family: var(--main-font);
     color: var(--main-font-color);
 }
-.main{
-    h1{
+
+.main {
+    h1 {
         color: var(--h-colors);
     }
+
     margin-left: 5px;
     margin-right: 5px;
-} 
 
-@media print{
-    .header, .footer{
+    p {
+        max-width: 768px;
+    }
+}
+
+@media print {
+
+    .header,
+    .footer {
         display: none;
     }
 }
 
-@media screen and (prefers-color-scheme: light){
-    :root{
+@media screen and (prefers-color-scheme: light) {
+    :root {
         --bg-color: #ffffff;
         --main-font-color: #000000;
     }
