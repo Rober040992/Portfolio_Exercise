@@ -105,19 +105,19 @@
             </div>
             <div>
                 <label class="shadow" for="GitHub">GitHub</label>
-                <input type="radio" id="GitHub" name="how">
+                <input type="radio" id="GitHub" name="how" pattern="^@[^\s]+" required>
             </div>
         </fieldset>
         <br>
-        <div class="more_info">
-            <div>
-                <label for="info">More info:</label>
-            </div>
-            <div>
-                <textarea class="shadow" name="info" id="info" cols="40" rows="5" placeholder="more information here"
-                    maxlength="150"></textarea>
-            </div>
-        </div>
+        <section class="more_info">
+                <div>
+                    <label for="info">More info:</label>
+                </div>
+                <div>
+                    <textarea class="shadow" name="info" id="info" cols="40" rows="5" placeholder="more information here"
+                        maxlength="150"></textarea>
+                </div>
+        </section>
         <br>
         <div class="love">
             <div>

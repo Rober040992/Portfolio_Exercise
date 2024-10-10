@@ -36,11 +36,14 @@
     }
 }
 
-.footer {}
+.footer {
+    
+}
 
 .proyect_body {
     background-image: url(../assets/app/body/Space-Background-Images-1536x1024.jpg);
-    background-size: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 /* video section */

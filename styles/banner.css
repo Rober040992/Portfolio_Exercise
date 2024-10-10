@@ -1,6 +1,7 @@
 .banner {
-    height: 30vh;
-    max-width: 868px;
+    height: 40vh;
+    max-width: 900px;
+    margin: 0 auto;
     display: flex;                      
     align-items: center;               
     justify-content: center;            
