@@ -1,7 +1,7 @@
 :root {
     --bg-color: #000000;
     --foot-bg: #f7f8f949;
-    --main-font: sans-serif;
+    --main-font: "Roboto", sans-serif;;
     --main-font-color: #ffffff;
     --bttn-font-colors: rgb(22, 5, 5);
     --head-color: rgba(196, 196, 213, 0.67);
@@ -15,7 +15,6 @@
     --bottom-border-color: rgb(205, 38, 38);
     --banners-bg-color: rgba(222, 204, 204, 0.239);
     font-size: 15px;
-    font-family: "Roboto", sans-serif;
     font-weight: 500;
 }
 
@@ -26,12 +25,11 @@
 }
 
 .main {
+    margin-left: 1rem;
+    margin-right: 1rem;
     h1 {
         color: var(--h-colors);
     }
-
-    margin-left: 5px;
-    margin-right: 5px;
 
     p {
         max-width: 768px;
@@ -39,7 +37,6 @@
 }
 
 @media print {
-
     .header,
     .footer {
         display: none;
