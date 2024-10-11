@@ -50,13 +50,13 @@
 
 }
 .more_info{
-    max-width: 768px;
     margin: 0 auto;
-    list-style: none;
-    width: auto;
-    min-width: none;
     max-width: fit-content;
     textarea{
+        min-height: 50px;
+        min-width: 220px;
+        max-width: 320px;
+        max-height: 320px;
         background-color: var(--comps-bg-color);
         border-radius: 10px;
     }
